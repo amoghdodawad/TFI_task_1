@@ -41,14 +41,16 @@ function About() {
           as="h1" 
           color="rgba(14,35,104,1)"
           my="0.7rem"
+          fontFamily="Poppins"
         >
           About us
         </Heading>
         <Text
-          color="rgba(14,35,104,1)"
           py="0.7rem"
           width={{ base: "80%", md: "65%"}}
           textAlign={{ base: "center", md: "start" }}
+          fontFamily="Open sans"
+          color="rgba(68, 73, 87, 1)"
         >
           Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. t has survived not only five centuries.
         </Text>
@@ -63,7 +65,7 @@ function About() {
             pl="8px" 
             pr="8px" 
             fontWeight="bold" 
-            fontFamily="Poppins"
+            fontFamily="Open Sans"
           >
             Read more
           </Text>

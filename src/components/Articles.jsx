@@ -70,7 +70,9 @@ function Articles() {
             width="100%"
             // height={{ base:"300vh", md:"100vh" }}
         >
-            <Heading>
+            <Heading
+                fontFamily="Open Sans"
+            >
                 Latest articles
             </Heading>
             <Flex

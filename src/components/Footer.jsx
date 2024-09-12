@@ -40,11 +40,16 @@ function Footer() {
                 py="3rem"
                 pl={{ base: "1rem", md: "0"}}
             >
-                <Heading fontWeight="semibold">
+                <Heading 
+                    fontWeight="semibold"
+                    fontFamily="Open Sans"
+                >
                     Contact us
                 </Heading>
                 <Flex
                     flexDirection="column"
+                    fontFamily="Open Sans"
+                    color="rgba(100, 104, 116, 1)"
                 >
                     <Text my=".5rem">
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto illo saepe natus at voluptatum non temporibus autem, suscipit reiciendis rerum.
@@ -62,11 +67,16 @@ function Footer() {
                 py="3rem"
                 pl={{ base: "1rem", md: "0"}}
             >
-                <Heading fontWeight="semibold">
+                <Heading 
+                    fontWeight="semibold"
+                    fontFamily="Open Sans"
+                >
                     More
                 </Heading>
                 <Flex
                     flexDirection="column"
+                    fontFamily="Open Sans"
+                    color="rgba(100, 104, 116, 1)"
                 >
                     <Text my=".3rem">
                         About us
@@ -89,7 +99,10 @@ function Footer() {
                 justifyContent="center"
                 flexDirection="column"
             >
-                <Heading fontWeight="semibold">
+                <Heading 
+                    fontWeight="semibold"
+                    fontFamily="Open Sans"
+                >
                     Social Links
                 </Heading>
                 <Flex

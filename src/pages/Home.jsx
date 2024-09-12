@@ -6,18 +6,18 @@ import ArticlesSection from '../components/Articles';
 import Footer from '../components/Footer';
 import Navbar from '../components/Navbar';
 
-const LandingPage = () => {
+function LandingPage (){
     return (
-      <Box padding="0" margin="0">
-        <Container maxWidth="100vw" padding="0" margin="0">
-            <Navbar/>
-            <LandingSection />
-            <AboutUsSection />
-            <ArticlesSection />
-            <Footer />
-        </Container>
-      </Box>
+        <Box padding="0" margin="0">
+            <Container maxWidth="100vw" padding="0" margin="0">
+                <Navbar/>
+                <LandingSection />
+                <AboutUsSection />
+                <ArticlesSection />
+                <Footer />
+            </Container>
+        </Box>
     );
-  };
+};
   
-  export default LandingPage;
+export default LandingPage;

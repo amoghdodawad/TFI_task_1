@@ -41,6 +41,7 @@ function ArticleCard({ url, title, description }) {
                 overflow="hidden"
                 my="0.4rem"
                 mx="3rem"
+                fontFamily="Poppins"
             >
                 {title}
             </Heading>
@@ -49,6 +50,8 @@ function ArticleCard({ url, title, description }) {
                 height="50%"
                 overflow="hidden"
                 mx="3rem"
+                fontFamily="Open Sans"
+                color="rgba(68, 73, 87, 1)"
             >
                 {description}
             </Text>
@@ -64,6 +67,8 @@ function ArticleCard({ url, title, description }) {
                 my="0.8rem"
                 px={{ base:"2rem", md:"1.5rem"}}
                 py={{ base:"0.4rem", md:"0.7rem" }}
+                fontFamily="Open Sans"
+                color="rgba(66, 73, 97, 1)"
             >
                 Read more
             </Button>

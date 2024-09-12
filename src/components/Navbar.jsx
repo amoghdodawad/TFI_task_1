@@ -30,6 +30,7 @@ function Navbar() {
             px="1rem" 
             py=".5rem" 
             borderRadius="full"
+            fontFamily="Open Sans"
         >
             Get in touch
         </Box>
